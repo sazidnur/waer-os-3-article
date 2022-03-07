@@ -269,7 +269,7 @@ The unified Wear OS/Tizen (we suspect the lion’s share of this is Wear OS) wil
 
 There’s also improved battery life, but there’s no firm details on how long – but it seems it will be two days max. However, Google used the example that "includes handy optimizations like the ability to run the heart rate sensor continuously during the day, track your sleep overnight and still have battery for the next day.” We told you to temper your excitement.
 
-</br. </br>
+</br> </br>
 
 ### Wear OS 3 has promising upgrades
 
