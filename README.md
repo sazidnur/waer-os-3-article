@@ -262,15 +262,15 @@ WFS works on both Windows and Mac environments. Here are some of the key ways yo
 
 ### Performance improvements
 
-The unified Wear OS/Tizen (we suspect the lion’s share of this is Wear OS) will bring a 30% increase in performance, slicker animations and UI and a boost in loading times of apps.
+The unified Wear OS/Tizen (we assume the lion's share of this will be Wear OS) will provide a 30% increase in performance, faster app loading times and  slicker animations and UI.
 
-There's also better battery life, though no definite specifics on how long it will last — it appears to be two days at most. However, Google provided the example of "handy enhancements like the ability to run the heart rate sensor constantly during the day, track your sleep overnight, and still have battery for the next day." We told you to temper your excitement.
+There's also improved battery life, however there's no word on how long it will last – it appears to be two days at most. Google, on the other hand, presented an example of "useful enhancements like the ability to operate the heart rate sensor constantly during the day, track your sleep overnight, and still have batteries for the next day." We warned you to temper your excitement.
 
 </br> </br>
 
 ### Wear OS 3 has promising upgrades
 
-In Wear OS 3, there are some promising upgrades that might entice developers to go back and design for the platform. It will be updated on a regular basis. But probably not as frequently as Android phones. Updates are also done in a semi-automated manner. If you have the Wear OS software installed, your phone will check for Wear OS updates when you turn it on.
+Wear OS 3 includes some promising improvements that may tempt developers to return to the platform and design for it. It will be kept updated on a regular basis. However, not as regularly as Android phones. Semi-automated updates are also performed. If you have the Wear OS software installed, when you switch on your phone, it will search for Wear OS updates.
 
 If there is one available, the watch will receive the update the next time you connect it. If you have an LTE-capable Wear OS watch, then updates will come through to the watch as it will have a constant connection.
 
