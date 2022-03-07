@@ -1,16 +1,20 @@
 # Wear OS 3: Great Opportunity for Developers
 
-For over a decade, Samsung and Google have worked together to push mobile technology forward across smartphones, tablets and foldables but Smartwatches are the next step in mobile computing and we’re truly excited about the future of wearables. Recently, Samsung unveiled its new *Galaxy Watch 4* with *Wear OS* Powered by Samsung. 
+
+For over a decade, Samsung and Google have worked together to push mobile technology forward across smartphones, tablets and foldables but Smartwatches are the next step in mobile computing and we’re truly excited about the future of wearables. Recently, Samsung unveiled its new ***Galaxy Watch 4*** with ***Wear OS*** Powered by Samsung. 
 
 Samsung has had a long history in smartwatches, with a lot of experimentation in features and software ideas. The company's latest Galaxy Watch 4 represents a new phase. Its software is the result of a partnership with Google, the first entry in what could be a whole new line of Android watches using Wear OS 3. The new Galaxy Watch 4, has new health features (snore detection and a body analysis sensor estimating BMI and muscle-fat tone using electrical impedance). It also has a completely new OS compared to previous Samsung watches: one that's built off Google's software but also has Samsung's health and app features. It'll hook into core Android and Samsung apps. 
 
+</br>
+
+<p align="center">
+  <img style="align:center" src="https://fdn.gsmarena.com/imgroot/news/21/08/samsung-galaxy-watch4-series-ofic/-1220x526/gsmarena_001.jpg" alt="Samsung Galaxy Watch 4" width="75%" />
+</p>
 
 
-![](https://fdn.gsmarena.com/imgroot/news/21/08/samsung-galaxy-watch4-series-ofic/-1220x526/gsmarena_001.jpg)
-
-
-
+</br>
 That sounds pretty good but the question is should we start apps developing for Wear OS 3 or Samsung Galaxy Watch 4 ? Let's find the answer!
+
 
 ## What is Wear OS 3?
 
@@ -33,20 +37,21 @@ While hardware manufacturers can tweak the sorts of functionality their Wear OS 
 
 Basics include notification synchronization with a connected smartphone, clock, timer and alarm functionality, fitness tracking (with support for various activities, along with heart rate and route tracking – with GPS support), contactless payments (via NFC) using Google Pay, Google Assistant queries, making and taking calls on-wrist, audio playback, and third-party app and watch face support, by way of the Google Play Store.
 
+
+
 ### Compose for Wear OS
 
-Compose for Wear OS is now available! Design your app with familiar UI components adapted for the watch. Compose for Wear OS is in developer preview, with new samples and documentation to help you get started.
+Compose for Wear OS is now available! Design your app with familiar UI components adapted for the watch. Compose for Wear OS is in developer preview, with new samples and documentation to help you get started. Most of the Wear related changes you make will be at the top architectural layers.
 
-Most of the Wear related changes you make will be at the top architectural layers.
+</br>
+<p align="center">
+  <img style="align:center" src="https://1.bp.blogspot.com/-prFJa-FMP5k/YWWqhhU75dI/AAAAAAAAQ_w/9kgz1krIxPMkMDovYoTNVFuBM9W1vMXLgCLcBGAsYHQ/s0/image10.png" alt="Samsung Galaxy Watch 4" width="25%" />
+</p>
+</br>
 
-![](Aspose.Words.af54e3db-460c-4a35-b64b-8af5643051bb.002.png)
+That means many of the dependencies you already use with Jetpack Compose don't change when targeting Wear OS. For example, the UI, Runtime, Compiler, and Animation dependencies will remain the same. However, you will need to use the proper Wear OS Material, Navigation, and Foundation libraries which are different from the libraries you have used before in your mobile app.
 
-
-That means many of the dependencies you already use with Jetpack Compose don't change when targeting Wear OS. For example, the UI, Runtime, Compiler, and Animation dependencies will remain the same.
-
-However, you will need to use the proper Wear OS Material, Navigation, and Foundation libraries which are different from the libraries you have used before in your mobile app.
-
-
+</br>
 
 |<p>**Wear OS Dependency**</p><p>(androidx.wear.\*)</p>|**Comparison**|<p>**Mobile Dependency**</p><p>(androidx.\*)</p>|
 | :-: | :-: | :-: |
@@ -54,8 +59,11 @@ However, you will need to use the proper Wear OS Material, Navigation, and Found
 |[androidx.wear.compose:compose-navigation](https://developer.android.com/reference/kotlin/androidx/wear/compose/navigation/package-summary)|***instead of***|androidx.navigation:navigation-compose|
 |[androidx.wear.compose:compose-foundation](https://developer.android.com/reference/kotlin/androidx/wear/compose/foundation/package-summary)|***in addition to***|androidx.compose.foundation:foundation|
 
+</br>
 
 Here's an example build.gradle file:
+
+</br>
 
 // Example project in app/build.gradle file
 
@@ -117,7 +125,8 @@ The code above is very similar to the mobile side, but the library creates a Wea
 
 
 
-Tiles: Also the new Wear OS 3 will make the API for its Tile Widget available for third-party developers to make custom Tiles that will work for all watches. Also, tiles like Adidas running, Golfpad, Flo and Outdooractive are part of the third party tiles in the works. Using the Tiles API requires targeting API level 26 or higher.
+### Tiles
+Also the new Wear OS 3 will make the API for its Tile Widget available for third-party developers to make custom Tiles that will work for all watches. Also, tiles like Adidas running, Golfpad, Flo and Outdooractive are part of the third party tiles in the works. Using the Tiles API requires targeting API level 26 or higher.
 
 ![](Aspose.Words.af54e3db-460c-4a35-b64b-8af5643051bb.004.png)
 
@@ -238,7 +247,7 @@ The permission and intent filter register this service as a Tile provider.
 The icon, label, and description is shown to the user when they configure Tiles on their phone or watch.
 
 
-Fitbit’s Fitness Tracking
+### Fitbit’s Fitness Tracking
 
 There is no denying that one of the most important contributions to Fitbit’s success as a wearable brand is its great fitness tracking features. In light of that, the company will be in charge of developing features in the fitness aspect of the Wear OS. In other words, you should expect a similar user interface when accessing fitness features on the Wear OS 3.
 
@@ -251,7 +260,7 @@ Health features to Google Fit:
 - Sleep tracking
 - Wake up
 
-Watch Face Studio
+### Watch Face Studio
 
 Watch faces are one of the most visible ways that users can express themselves on their smartwatches. Creating a watch face is a great way to showcase your brand for users on Wear OS.
 
@@ -265,13 +274,13 @@ WFS works on both Windows and Mac environments. Here are some of the key ways yo
 - Grouping & complications: Group components so that you can control or move those components with a single action. You can handle an entire complication as one group.
 - Tag expressions: Add tags with date, time, battery, step count information and more.
 
-Performance improvements
+### Performance improvements
 
 The unified Wear OS/Tizen (we suspect the lion’s share of this is Wear OS) will bring a 30% increase in performance, slicker animations and UI and a boost in loading times of apps.
 
 There’s also improved battery life, but there’s no firm details on how long – but it seems it will be two days max. However, Google used the example that "includes handy optimizations like the ability to run the heart rate sensor continuously during the day, track your sleep overnight and still have battery for the next day.” We told you to temper your excitement.
 
-Wear OS 3 has promising upgrades
+### Wear OS 3 has promising upgrades
 
 In Wear OS 3, there are some promising upgrades that might entice developers to go back and design for the platform. It will get updates from time to time. Probably not as often as Android phones, though. Updates are also fairly hands-off. When you power on your phone, it will check for Wear OS updates if the Wear OS app is installed.
 
@@ -279,7 +288,7 @@ If there is one available, it’ll send that update to the watch the next time y
 
 
 
-Recent Market Updates:
+## Recent Market Updates:
 
 Wear OS captures 17% of the smartwatch market following strong Galaxy Watch 4 sales. Google’s Wear OS sat mostly stagnant for a few years, leading to the platform being just a footnote in the overall smartwatch market. However, thanks to strong Galaxy Watch 4 sales, Wear OS has been catapulted into second place when it comes to market share of smartwatches sold in Q3 2021.
 
@@ -287,7 +296,7 @@ Counterpoint Research reports that Wear OS captured 17% of smartwatch shipments 
 
 Samsung’s new smartwatch reportedly made up nearly 60% of smartwatch shipments in North America and Europe during Q3 2021, while Apple’s share of the market dropped significantly in Q3 due to the delayed launch of the Apple Watch Series 7.
 
-No Killer App = Killer Opportunity For Developers
+## No Killer App = Killer Opportunity For Developers
 
 While analysts and shareholders should be concerned about the lack of use-cases and killer apps for smartwatches, this is actually good news for developers. You could be the one to undertake such smartwatch app development, and make a mark on this emerging and untapped market.
 
@@ -295,7 +304,7 @@ I have already talked about long-term forecasts, and the potential is clearly th
 
 So what is your decision to make great apps for Wear OS 3?  
 
-Conclusion:
+## Conclusion
 
 The use of wearable app development is predicted to grow in the future specially with Wear OS 3. With every year, such devices become more advanced and offer a wider range of features. Wearable applications can become a great addition to our mobile app that will improve the user experience or a standalone solution with unique functionality. So it’s the high time to start developing apps for Wear OS 3 and take the benefits of this untapped market with great future and features.
 
