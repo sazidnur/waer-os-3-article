@@ -288,9 +288,9 @@ Samsung's new smartwatch is said to have accounted for approximately 60% of smar
 
 ## No Killer App = Killer Opportunity For Developers
 
-While analysts and shareholders should be concerned about the lack of use-cases and killer apps for smartwatches, this is actually good news for developers. You could be the one to undertake such smartwatch app development, and make a mark on this emerging and untapped market.
+While experts and shareholders should be worried about the lack of use-cases and killer apps for smartwatches, developers should rejoice. You could be the one to take on such smartwatch app development and make a name for yourself in this new and untapped market.
 
-I have already talked about long-term forecasts, and the potential is clearly there. And, while we are still in the very early stages of smartwatch development, I believe this niche is worth exploring. It’s not just for risk-takers, it’s not speculative, at least not much more speculative than any traditional mobile app project today.
+I've already mentioned long-term predictions, and the potential is undeniably there. And, while smartwatch development is still in its early stages, I feel this market is worth researching. It's not just for risk-takers, and it's not speculative, at least not any more so than any standard mobile app initiative today.
 
 So what is your decision to make great apps for Wear OS 3?  
 
@@ -298,7 +298,7 @@ So what is your decision to make great apps for Wear OS 3?
 
 ## Conclusion
 
-The use of wearable app development is predicted to grow in the future specially with Wear OS 3. With every year, such devices become more advanced and offer a wider range of features. Wearable applications can become a great addition to our mobile app that will improve the user experience or a standalone solution with unique functionality. So it’s the high time to start developing apps for Wear OS 3 and take the benefits of this untapped market with great future and features.
+The use of wearable app development is predicted to grow in the future specially with Wear OS 3. Such devices become more advanced and offer a wider range of features with each passing year. Wearable applications can be an excellent addition to our mobile app, improving the user experience, or a stand-alone solution with unique functionality. So it’s the high time to start developing apps for Wear OS 3 and take the benefits of this untapped market with great future and features.
 
 
 
