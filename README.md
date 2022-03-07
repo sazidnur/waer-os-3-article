@@ -274,7 +274,7 @@ In Wear OS 3, there are some promising upgrades that might entice developers to 
 
 If there is one available, the watch will receive the update the next time you connect it. If you have an LTE-capable Wear OS watch, then updates will come through to the watch as it will have a constant connection.
 
-</br> </br>
+</br>
 
 ## Recent Market Updates:
 
@@ -284,7 +284,7 @@ Wear OS accounted for 17% of smartwatch shipments in Q3 2021, up from 4% the pre
 
 Samsung's new smartwatch is said to have accounted for approximately 60% of smartwatch shipments in North America and Europe in Q3 2021, while Apple's market share fell drastically in Q3 due to the Apple Watch Series 7's delayed launch.
 
-</br> </br>
+</br>
 
 ## No Killer App = Killer Opportunity For Developers
 
@@ -294,7 +294,7 @@ I have already talked about long-term forecasts, and the potential is clearly th
 
 So what is your decision to make great apps for Wear OS 3?  
 
-</br> </br>
+</br>
 
 ## Conclusion
 
