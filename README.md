@@ -117,7 +117,7 @@ Button(
 
 
 <img align="left" src="https://lh4.googleusercontent.com/w43qtaJV2QVPQrqbdCa1Hfnfg4rL_eGCD5wWKhCUJblfSzjUu38yVLP1zdLAHMrVO0X9XpF2H8e6h-pUi3zcMdO4YwEARwhheYhQoFA6eUmXpwCakofIciU1v0aVJsNtgRQmxm8SF_ADombUBRW9OKQQxNErqxE5wesM_VC7QLNYWr5J=s0" alt="Samsung Galaxy Watch 4 Icon" width="12%" />
-</br> The code above is very similar to the mobile side, but the library creates a Wear OS optimized version of the button, that is, a button circular in shape and sized by *ButtonDefaults* to follow Wear OS Material Guidelines. 
+The code above is very similar to the mobile side, but the library creates a Wear OS optimized version of the button, that is, a button circular in shape and sized by *ButtonDefaults* to follow Wear OS Material Guidelines. 
 
 
 
