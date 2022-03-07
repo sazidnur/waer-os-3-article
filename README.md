@@ -4,7 +4,7 @@
 
 For over a decade, Samsung and Google have worked together to push mobile technology forward across smartphones, tablets and foldables but Smartwatches are the next step in mobile computing and we’re truly excited about the future of wearables. Recently, Samsung unveiled its new ***Galaxy Watch 4*** with ***Wear OS*** Powered by Samsung. 
 
-Samsung has had a long history in smartwatches, with a lot of experimentation in features and software ideas. The company's latest Galaxy Watch 4 represents a new phase. Its software is the result of a partnership with Google, the first entry in what could be a whole new line of Android watches using Wear OS 3. The new Galaxy Watch 4, has new health features (snore detection and a body analysis sensor estimating BMI and muscle-fat tone using electrical impedance). It also has a completely new OS compared to previous Samsung watches: one that's built off Google's software but also has Samsung's health and app features. It'll hook into core Android and Samsung apps. 
+Samsung has a long history with smartwatches, having experimented with a variety of features and software concepts. The company's most recent Galaxy Watch 4 marks the start of a new era. Its software is the result of a collaboration with Google, and it's the first in what might be a new series of Android watches based on Wear OS 3. New health functions have been added to the new Galaxy Watch 4. (snore detection and a body analysis sensor estimating BMI and muscle-fat tone using electrical impedance). In comparison to previous Samsung watches, it also boasts an entirely new operating system: one that is based on Google's software but also includes Samsung's health and app capabilities. It'll integrate with core Android's and Samsung's apps.
 
 </br>
 
@@ -50,7 +50,7 @@ Compose for Wear OS is now available! Design your app with familiar UI component
 </p>
 </br>
 
-That means many of the dependencies you already use with Jetpack Compose don't change when targeting Wear OS. For example, the UI, Runtime, Compiler, and Animation dependencies will remain the same. However, you will need to use the proper Wear OS Material, Navigation, and Foundation libraries which are different from the libraries you have used before in your mobile app.
+As a result, many of the Jetpack Compose dependencies remain the same while targeting Wear OS. The UI, Runtime, Compiler, and Animation dependencies, for example, will not change. However, you will need to use the Wear OS Material, Navigation, and Foundation libraries, which are different from the libraries you used in your mobile app previously.
 
 </br>
 
@@ -264,25 +264,25 @@ WFS works on both Windows and Mac environments. Here are some of the key ways yo
 
 The unified Wear OS/Tizen (we suspect the lion’s share of this is Wear OS) will bring a 30% increase in performance, slicker animations and UI and a boost in loading times of apps.
 
-There’s also improved battery life, but there’s no firm details on how long – but it seems it will be two days max. However, Google used the example that "includes handy optimizations like the ability to run the heart rate sensor continuously during the day, track your sleep overnight and still have battery for the next day.” We told you to temper your excitement.
+There's also better battery life, though no definite specifics on how long it will last — it appears to be two days at most. However, Google provided the example of "handy enhancements like the ability to run the heart rate sensor constantly during the day, track your sleep overnight, and still have battery for the next day." We told you to temper your excitement.
 
 </br> </br>
 
 ### Wear OS 3 has promising upgrades
 
-In Wear OS 3, there are some promising upgrades that might entice developers to go back and design for the platform. It will get updates from time to time. Probably not as often as Android phones, though. Updates are also fairly hands-off. When you power on your phone, it will check for Wear OS updates if the Wear OS app is installed.
+In Wear OS 3, there are some promising upgrades that might entice developers to go back and design for the platform. It will be updated on a regular basis. But probably not as frequently as Android phones. Updates are also done in a semi-automated manner. If you have the Wear OS software installed, your phone will check for Wear OS updates when you turn it on.
 
-If there is one available, it’ll send that update to the watch the next time you connect it. If you have an LTE-capable Wear OS watch, then updates will come through to the watch as it will have a constant connection.
+If there is one available, the watch will receive the update the next time you connect it. If you have an LTE-capable Wear OS watch, then updates will come through to the watch as it will have a constant connection.
 
 </br> </br>
 
 ## Recent Market Updates:
 
-Wear OS captures 17% of the smartwatch market following strong Galaxy Watch 4 sales. Google’s Wear OS sat mostly stagnant for a few years, leading to the platform being just a footnote in the overall smartwatch market. However, thanks to strong Galaxy Watch 4 sales, Wear OS has been catapulted into second place when it comes to market share of smartwatches sold in Q3 2021.
+Following excellent Galaxy Watch 4 sales, Wear OS now controls 17% of the smartwatch market. For a few years, Google's Wear OS was essentially dormant, resulting in the platform becoming a footnote in the wider smartwatch market. However, thanks to strong Galaxy Watch 4 sales, Wear OS has been catapulted into second place when it comes to market share of smartwatches sold in Q3 2021.
 
-Counterpoint Research reports that Wear OS captured 17% of smartwatch shipments in Q3 2021, up from just 4% the previous quarter. The obvious reason for this massive leap is that Wear OS now powers Samsung’s Galaxy Watch 4 series, albeit with a relatively heavy skin on top of the experience.
+Wear OS accounted for 17% of smartwatch shipments in Q3 2021, up from 4% the previous quarter, according to Counterpoint Research. The obvious reason for this massive leap is that Wear OS now powers Samsung’s Galaxy Watch 4 series, albeit with a relatively heavy skin on top of the experience.
 
-Samsung’s new smartwatch reportedly made up nearly 60% of smartwatch shipments in North America and Europe during Q3 2021, while Apple’s share of the market dropped significantly in Q3 due to the delayed launch of the Apple Watch Series 7.
+Samsung's new smartwatch is said to have accounted for approximately 60% of smartwatch shipments in North America and Europe in Q3 2021, while Apple's market share fell drastically in Q3 due to the Apple Watch Series 7's delayed launch.
 
 </br> </br>
 
