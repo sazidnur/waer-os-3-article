@@ -2,9 +2,9 @@
 
 </br>
 
-For over a decade, Samsung and Google have worked together to push mobile technology forward across smartphones, tablets and foldables but Smartwatches are the next step in mobile computing and we’re truly excited about the future of wearables. Recently, Samsung unveiled its new ***Galaxy Watch 4*** with ***Wear OS*** Powered by Samsung. 
+Samsung and Google have collaborated for over a decade to advance mobile technology across smartphones, tablets, and foldables, but smartwatches are the next step in mobile computing, and we're very optimistic about the future of wearables. Recently, Samsung unveiled its new ***Galaxy Watch 4*** with ***Wear OS*** Powered by Samsung. 
 
-Samsung has a long history with smartwatches, having experimented with a variety of features and software concepts. The company's most recent Galaxy Watch 4 marks the start of a new era. Its software is the result of a collaboration with Google, and it's the first in what might be a new series of Android watches based on Wear OS 3. New health functions have been added to the new Galaxy Watch 4. (snore detection and a body analysis sensor estimating BMI and muscle-fat tone using electrical impedance). In comparison to previous Samsung watches, it also boasts an entirely new operating system: one that is based on Google's software but also includes Samsung's health and app capabilities. It'll integrate with core Android's and Samsung's apps.
+Samsung has a long history with smartwatches, having experimented with a variety of features and software concepts. The company's most recent Galaxy Watch 4 marks the start of a new era. Its software is the result of a collaboration with Google, and it's the first in what might be a new series of Android watches based on Wear OS 3. New health functions have been added to the new Galaxy Watch 4. (snore detection, a body analysis sensor to estimate BMI and muscle-fat tone that uses electrical impedance). In comparison to previous Samsung watches, it also boasts an entirely new operating system: one that is based on Google's software but also includes Samsung's health and app capabilities. It'll integrate with core Android's and Samsung's apps.
 
 </br>
 
@@ -19,7 +19,7 @@ That sounds pretty good but the question is should we start apps developing for 
 
 ## What is Wear OS 3?
 
-Wear OS 3.0 is the latest edition of the smartwatch OS – and one of the biggest updates ever to the platform.  It's being co-developed by Google and Samsung, the latter of which has adopted Wear OS in lieu of its long-time Tizen platform. It brings some notable changes compared to previous iterations of Wear OS, which should give it a boost when compared to both Google and Samsung's efforts in the space, combining the best of both companies. 
+Wear OS 3.0 is the most updated version of the wearable operating system, and it is one of the most major changes to the platform to date. It's being co-developed by Google and Samsung, the latter of which has ditched its long-running Tizen platform in favor of Wear OS. It has some noticeable differences from earlier Wear OS versions, which should give it an advantage over both Google and Samsung's efforts in the field, combining the best of both companies'. 
 
 Wear OS 3.0 in brief:
 
@@ -34,9 +34,9 @@ Wear OS 3.0 in brief:
 
 ## New Features
 
-While hardware manufacturers can tweak the sorts of functionality their Wear OS watches bring to the table, Wear OS itself comes with a fundamental feature set that can be expanded upon – depending on factors like price point or target audience. So let's talk about some new cool features of Wear OS 3, so that you can make a decision.
+While hardware manufacturers can customize the features that their Wear OS devices offer, Wear OS itself has a fundamental feature set that can be enhanced based on considerations such as pricing or target audience. So let's take a look at some of Wear OS 3's new exciting features to help you determine.
 
-Basics include notification synchronization with a connected smartphone, clock, timer and alarm functionality, fitness tracking (with support for various activities, along with heart rate and route tracking – with GPS support), contactless payments (via NFC) using Google Pay, Google Assistant queries, making and taking calls on-wrist, audio playback, and third-party app and watch face support, by way of the Google Play Store.
+Notification synchronization with a connected smartphone, clock, timer, and alarm functionality, fitness tracking (with support for various activities, as well as heart rate and route tracking with GPS support), Google Assistant queries, contactless payments (via NFC) using Google Pay, making and taking calls on-the-go, audio playback, and third-party app and watch face support via the Google Play Store are among the basic features.
 
 
 
@@ -88,7 +88,7 @@ dependencies {
 
 Let's explore some composables you can start using today.
 
-As a general rule, many of the Wear composables that are equivalent to the mobile versions can use the same code. The code for styling color, typography, and shapes with MaterialTheme is identical to mobile as well.
+In general, many Wear composable that are equivalent to mobile versions can use the same code. The code for styling color, typography, and shapes with Material Theme is also the same for mobile.
 
 For example, to create a Wear OS button your code looks like this:
 
@@ -124,7 +124,7 @@ The code above is very similar to the mobile side, but the library creates a Wea
 </br> </br> </br>
 
 ### Tiles
-Also the new Wear OS 3 will make the API for its Tile Widget available for third-party developers to make custom Tiles that will work for all watches. Also, tiles like Adidas running, Golfpad, Flo and Outdooractive are part of the third party tiles in the works. Using the Tiles API requires targeting API level 26 or higher.
+Also the new Wear OS 3 will make the API for its Tile Widget available for third-party developers to make custom Tiles that will work for all watches. Also, Third-party tiles in development include Adidas running, Golfpad, Flo, and Outdooractive. Using the Tiles API necessitates aiming for API level 26 or higher.
 
 </br>
 
@@ -233,7 +233,7 @@ The icon, label, and description is shown to the user when they configure Tiles 
 </br> </br>
 ### Fitbit’s Fitness Tracking
 
-There is no denying that one of the most important contributions to Fitbit’s success as a wearable brand is its great fitness tracking features. In light of that, the company will be in charge of developing features in the fitness aspect of the Wear OS. In other words, you should expect a similar user interface when accessing fitness features on the Wear OS 3.
+There is no denying that Fitbit's excellent fitness tracking features have made a significant contribution to the company's success as a wearable brand. As a result, the company will be in charge of developing features for the Wear OS's fitness component. In other words, when accessing fitness features on Wear OS 3, you should expect a similar user interface.
 
 Health features to Google Fit:
 
@@ -250,7 +250,7 @@ Health features to Google Fit:
 
 </br>
 
-  <img align="left" src="https://developer.android.com/images/wear/watch-face-studio_720.png" alt="Watch Free Studio" width="35%" /> Watch faces are one of the most visible ways that users can express themselves on their smartwatches. Creating a watch face is a great way to showcase your brand for users on Wear OS. Watch Face Studio (WFS) is a watch face design tool created by Samsung that allows you to produce and distribute your own watch faces without any coding. WFS includes intuitive graphics tools to allow you to easily design watch faces. Create watch faces for your personal use, or upload them in Google Play Console to share with your smartwatch users. </br> </br> </br> Watch faces made using WFS can be downloaded and installed for any Wear OS watch devices, regardless of manufacturer, as long as the device targets Wear 2.0 (API level 28) or higher.
+  <img align="left" src="https://developer.android.com/images/wear/watch-face-studio_720.png" alt="Watch Free Studio" width="35%" /> Watch faces are one of the most visible ways that smartwatch users can express themselves. Creating a watch face is an excellent way to promote your brand to Wear OS users. Watch Face Studio (WFS) is a watch face design tool developed by Samsung that allows you to create and distribute your own watch faces without the need for coding. WFS includes easy-to-use graphics tools for creating watch faces. Create watch faces for your own use, or upload them to Google Play Console and share them with your smartwatch users. </br> </br> </br> WFS-created watch faces can be downloaded and installed on any Wear OS watch device, regardless of manufacturer, as long as it supports Wear 2.0 (API level 28) or higher.
 </br> </br>
 WFS works on both Windows and Mac environments. Here are some of the key ways you can use WFS:
 
