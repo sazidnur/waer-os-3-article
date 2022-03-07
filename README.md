@@ -226,9 +226,9 @@ Next, add a service inside the <application> tag of your AndroidManifest.xml.
 
 </br>
 
-The permission and intent filter register this service as a Tile provider.
+This service is registered as a Tile provider by the permission and intent filters.
 
-The icon, label, and description is shown to the user when they configure Tiles on their phone or watch.
+When a user configures Tiles on their phone or watch, the icon, label, and description are shown to them.
 
 </br> </br>
 ### Fitbit’s Fitness Tracking
@@ -252,7 +252,7 @@ Health features to Google Fit:
 
   <img align="left" src="https://developer.android.com/images/wear/watch-face-studio_720.png" alt="Watch Free Studio" width="35%" /> Watch faces are one of the most visible ways that smartwatch users can express themselves. Creating a watch face is an excellent way to promote your brand to Wear OS users. Watch Face Studio (WFS) is a watch face design tool developed by Samsung that allows you to create and distribute your own watch faces without the need for coding. WFS includes easy-to-use graphics tools for creating watch faces. Create watch faces for your own use, or upload them to Google Play Console and share them with your smartwatch users. </br> </br> </br> WFS-created watch faces can be downloaded and installed on any Wear OS watch device, regardless of manufacturer, as long as it supports Wear 2.0 (API level 28) or higher.
 </br> </br>
-WFS works on both Windows and Mac environments. Here are some of the key ways you can use WFS:
+WFS is compatible with both Windows and Mac operating systems. WFS can be used in the following ways:
 
 - Style editing: Customize the watch face’s color, background image, font and more.
 - Grouping & complications: Group components so that you can control or move those components with a single action. You can handle an entire complication as one group.
@@ -272,13 +272,13 @@ There's also improved battery life, however there's no word on how long it will 
 
 Wear OS 3 includes some promising improvements that may tempt developers to return to the platform and design for it. It will be kept updated on a regular basis. However, not as regularly as Android phones. Semi-automated updates are also performed. If you have the Wear OS software installed, when you switch on your phone, it will search for Wear OS updates.
 
-If there is one available, the watch will receive the update the next time you connect it. If you have an LTE-capable Wear OS watch, then updates will come through to the watch as it will have a constant connection.
+If there is one available, the watch will receive the update the next time you connect it. If you have an LTE-capable Wear OS watch, updates will be delivered to the watch as it will have a constant connection.
 
 </br>
 
 ## Recent Market Updates:
 
-Following excellent Galaxy Watch 4 sales, Wear OS now controls 17% of the smartwatch market. For a few years, Google's Wear OS was essentially dormant, resulting in the platform becoming a footnote in the wider smartwatch market. However, thanks to strong Galaxy Watch 4 sales, Wear OS has been catapulted into second place when it comes to market share of smartwatches sold in Q3 2021.
+Following excellent Galaxy Watch 4 sales, Wear OS now controls 17% of the smartwatch market. For a few years, Google's Wear OS was essentially dormant, resulting in the platform becoming a footnote in the wider smartwatch market.However, despite high Galaxy Watch 4 sales, Wear OS has risen to second place in terms of market share of smartwatches sold in Q3 2021.
 
 Wear OS accounted for 17% of smartwatch shipments in Q3 2021, up from 4% the previous quarter, according to Counterpoint Research. The obvious reason for this massive leap is that Wear OS now powers Samsung’s Galaxy Watch 4 series, albeit with a relatively heavy skin on top of the experience.
 
