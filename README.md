@@ -66,7 +66,7 @@ Here's an example build.gradle file:
 
 </br>
 
-```Java
+```gradle
 // Example project in app/build.gradle file
 dependencies {
     // Standard Compose dependencies...
@@ -138,7 +138,7 @@ To start providing Tiles from your app, include the following dependencies in yo
 
 </br>
 
-```Java
+```gradle
 
 dependencies {
     // Use to implement support for wear tiles
@@ -160,93 +160,71 @@ dependencies {
 
 To provide a Tile from your application, create a class that extends TileService and implement the methods, as shown in the following code sample:
 
+</br>
+
+```Java
+
 public class MyTileService extends TileService {
+    private static final String RESOURCES_VERSION = "1";
 
-`    `private static final String RESOURCES\_VERSION = "1";
+    @NonNull
+    @Override
+    protected ListenableFuture<Tile> onTileRequest(
+        @NonNull TileRequest requestParams
+    ) {
+        return Futures.immediateFuture(new Tile.Builder()
+            .setResourcesVersion(RESOURCES_VERSION)
+            .setTimeline(new Timeline.Builder()
+                .addTimelineEntry(new TimelineEntry.Builder()
+                    .setLayout(new Layout.Builder()
+                        .setRoot(new Text.Builder()
+                            .setText("Hello world!").build()
+                        ).build()
+                    ).build()
+                ).build()
+            ).build()
+        ).build();
+   }
 
-`    `@NonNull
-
-`    `@Override
-
-`    `protected ListenableFuture<Tile> onTileRequest(
-
-`        `@NonNull TileRequest requestParams
-
-`    `) {
-
-`        `return Futures.immediateFuture(new Tile.Builder()
-
-`            `.setResourcesVersion(RESOURCES\_VERSION)
-
-`            `.setTimeline(new Timeline.Builder()
-
-`                `.addTimelineEntry(new TimelineEntry.Builder()
-
-`                    `.setLayout(new Layout.Builder()
-
-`                        `.setRoot(new Text.Builder()
-
-`                            `.setText("Hello world!").build()
-
-`                        `).build()
-
-`                    `).build()
-
-`                `).build()
-
-`            `).build()
-
-`        `).build();
-
-`   `}
-
-`   `@NonNull
-
-`   `@Override
-
-`   `protected ListenableFuture<Resources> onResourcesRequest(
-
-`       `@NonNull ResourcesRequest requestParams
-
-`   `) {
-
-`       `return Futures.immediateFuture(new Resources.Builder()
-
-`               `.setVersion(RESOURCES\_VERSION)
-
-`               `.build()
-
-`       `);
-
-`   `}
-
+   @NonNull
+   @Override
+   protected ListenableFuture<Resources> onResourcesRequest(
+       @NonNull ResourcesRequest requestParams
+   ) {
+       return Futures.immediateFuture(new Resources.Builder()
+               .setVersion(RESOURCES_VERSION)
+               .build()
+       );
+   }
 }
+
+```
+
+</br>
 
 Next, add a service inside the <application> tag of your AndroidManifest.xml.
 
+</br>
+
+```XML
+
 <service
+   android:name=".MyTileService"
+   android:label="@string/tile_label"
+   android:description="@string/tile_description"
+   android:exported="true"
+   android:permission="com.google.android.wearable.permission.BIND_TILE_PROVIDER">
+   <intent-filter>
+       <action android:name="androidx.wear.tiles.action.BIND_TILE_PROVIDER" />
+   </intent-filter>
 
-`   `android:name=".MyTileService"
-
-`   `android:label="@string/tile\_label"
-
-`   `android:description="@string/tile\_description"
-
-`   `android:exported="true"
-
-`   `android:permission="com.google.android.wearable.permission.BIND\_TILE\_PROVIDER">
-
-`   `<intent-filter>
-
-`       `<action android:name="androidx.wear.tiles.action.BIND\_TILE\_PROVIDER" />
-
-`   `</intent-filter>
-
-`   `<meta-data android:name="androidx.wear.tiles.PREVIEW"
-
-`       `android:resource="@drawable/tile\_preview" />
-
+   <meta-data android:name="androidx.wear.tiles.PREVIEW"
+       android:resource="@drawable/tile_preview" />
 </service>
+
+```
+
+</br>
 
 The permission and intent filter register this service as a Tile provider.
 
