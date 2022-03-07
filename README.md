@@ -1,5 +1,6 @@
 # Wear OS 3: Great Opportunity for Developers
 
+</br>
 
 For over a decade, Samsung and Google have worked together to push mobile technology forward across smartphones, tablets and foldables but Smartwatches are the next step in mobile computing and we’re truly excited about the future of wearables. Recently, Samsung unveiled its new ***Galaxy Watch 4*** with ***Wear OS*** Powered by Samsung. 
 
@@ -8,7 +9,7 @@ Samsung has had a long history in smartwatches, with a lot of experimentation in
 </br>
 
 <p align="center">
-  <img style="align:center" src="https://fdn.gsmarena.com/imgroot/news/21/08/samsung-galaxy-watch4-series-ofic/-1220x526/gsmarena_001.jpg" alt="Samsung Galaxy Watch 4" width="75%" />
+  <img src="https://fdn.gsmarena.com/imgroot/news/21/08/samsung-galaxy-watch4-series-ofic/-1220x526/gsmarena_001.jpg" alt="Samsung Galaxy Watch 4" width="75%" />
 </p>
 
 
@@ -65,29 +66,25 @@ Here's an example build.gradle file:
 
 </br>
 
+```Java
 // Example project in app/build.gradle file
-
 dependencies {
+    // Standard Compose dependencies...
 
-`    `// Standard Compose dependencies...
+    // Wear specific Compose Dependencies
+    // Developer Preview starts with Alpha 07, with new releases coming soon.
+    def wear_version = "1.0.0-alpha07"
+    implementation "androidx.wear.compose:compose-material:$wear_version"
+    implementation "androidx.wear.compose:compose-foundation:$wear_version"
 
-`    `// Wear specific Compose Dependencies
+    // For navigation within your app...
+    implementation "androidx.wear.compose:compose-navigation:$wear_version"
 
-`    `// Developer Preview starts with Alpha 07, with new releases coming soon.
-
-`    `def wear\_version = "1.0.0-alpha07"
-
-`    `implementation "androidx.wear.compose:compose-material:$wear\_version"
-
-`    `implementation "androidx.wear.compose:compose-foundation:$wear\_version"
-
-`    `// For navigation within your app...
-
-`    `implementation "androidx.wear.compose:compose-navigation:$wear\_version"
-
-`    `// Other dependencies...
-
+    // Other dependencies...
 }
+
+```
+</br>
 
 Let's explore some composables you can start using today.
 
@@ -95,62 +92,71 @@ As a general rule, many of the Wear composables that are equivalent to the mobil
 
 For example, to create a Wear OS button your code looks like this:
 
+</br>
+
+```Java
+
 Button(
-
-`    `modifier = Modifier.size(ButtonDefaults.LargeButtonSize),
-
-`    `onClick = { /\*...\*/ },
-
-`    `enabled = enabledState
-
+    modifier = Modifier.size(ButtonDefaults.LargeButtonSize),
+    onClick = { /*...*/ },
+    enabled = enabledState
 ) {
+    Icon(
+        painter = painterResource(id = R.drawable.ic_airplane),
+        contentDescription = "phone",
+        modifier = Modifier
+            .size(24.dp)
+            .wrapContentSize(align = Alignment.Center),
+    )
+}
 
-`    `Icon(
+```
 
-`        `painter = painterResource(id = R.drawable.ic\_airplane),
-
-`        `contentDescription = "phone",
-
-`        `modifier = Modifier
-
-`            `.size(24.dp)
-
-`            `.wrapContentSize(align = Alignment.Center),
-
-`    `)
-
-}![](Aspose.Words.af54e3db-460c-4a35-b64b-8af5643051bb.003.png)
-
-The code above is very similar to the mobile side, but the library creates a Wear OS optimized version of the button, that is, a button circular in shape and sized by ButtonDefaults to follow Wear OS Material Guidelines. 
+</br>
 
 
+
+<img align="left" src="https://lh4.googleusercontent.com/w43qtaJV2QVPQrqbdCa1Hfnfg4rL_eGCD5wWKhCUJblfSzjUu38yVLP1zdLAHMrVO0X9XpF2H8e6h-pUi3zcMdO4YwEARwhheYhQoFA6eUmXpwCakofIciU1v0aVJsNtgRQmxm8SF_ADombUBRW9OKQQxNErqxE5wesM_VC7QLNYWr5J=s0" alt="Samsung Galaxy Watch 4 Icon" width="12%" />
+</br> The code above is very similar to the mobile side, but the library creates a Wear OS optimized version of the button, that is, a button circular in shape and sized by *ButtonDefaults* to follow Wear OS Material Guidelines. 
+
+
+
+</br> </br> </br>
 
 ### Tiles
 Also the new Wear OS 3 will make the API for its Tile Widget available for third-party developers to make custom Tiles that will work for all watches. Also, tiles like Adidas running, Golfpad, Flo and Outdooractive are part of the third party tiles in the works. Using the Tiles API requires targeting API level 26 or higher.
 
-![](Aspose.Words.af54e3db-460c-4a35-b64b-8af5643051bb.004.png)
+</br>
+
+<p align="center">
+  <img src="https://developer.android.com/images/wear/tile.gif" alt="Samsung Galaxy Watch 4" width="75%" />
+</p>
+
+</br>
 
 To start providing Tiles from your app, include the following dependencies in your app's build.gradle file. 
 
+</br>
+
+```Java
+
 dependencies {
+    // Use to implement support for wear tiles
+    implementation "androidx.wear.tiles:tiles:1.1.0-alpha03"
 
-`    `// Use to implement support for wear tiles
+    // Use to utilize components and layouts with Material design in your tiles
+    implementation "androidx.wear.tiles:tiles-material:1.1.0-alpha03"
 
-`    `implementation "androidx.wear.tiles:tiles:1.1.0-alpha03"
+    // Use to preview wear tiles in your own app
+    debugImplementation "androidx.wear.tiles:tiles-renderer:1.1.0-alpha03"
 
-`    `// Use to utilize components and layouts with Material design in your tiles
-
-`    `implementation "androidx.wear.tiles:tiles-material:1.1.0-alpha03"
-
-`    `// Use to preview wear tiles in your own app
-
-`    `debugImplementation "androidx.wear.tiles:tiles-renderer:1.1.0-alpha03"
-
-`    `// Use to fetch tiles from a tile provider in your tests
-
-`    `testImplementation "androidx.wear.tiles:tiles-testing:1.1.0-alpha03"
-
+    // Use to fetch tiles from a tile provider in your tests
+    testImplementation "androidx.wear.tiles:tiles-testing:1.1.0-alpha03"
 }
+
+```
+
+</br>
 
 To provide a Tile from your application, create a class that extends TileService and implement the methods, as shown in the following code sample:
 
