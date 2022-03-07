@@ -42,7 +42,7 @@ Notification synchronization with a connected smartphone, clock, timer, and alar
 
 ### Compose for Wear OS
 
-Compose for Wear OS is now available! Design your app with familiar UI components adapted for the watch. Compose for Wear OS is in developer preview, with new samples and documentation to help you get started. Most of the Wear related changes you make will be at the top architectural layers.
+Compose is now available for Wear OS! Create your app using common UI components that have been customized for the watch. Compose for Wear OS is now accessible in developer preview, with new samples and instructions to get you started. The majority of your Wear-related changes will be at the top architectural layers.
 
 </br>
 <p align="center">
@@ -90,7 +90,7 @@ Let's explore some composables you can start using today.
 
 In general, many Wear composable that are equivalent to mobile versions can use the same code. The code for styling color, typography, and shapes with Material Theme is also the same for mobile.
 
-For example, to create a Wear OS button your code looks like this:
+For example, to make a Wear OS button, your code would look like this:
 
 </br>
 
@@ -134,7 +134,7 @@ Also the new Wear OS 3 will make the API for its Tile Widget available for third
 
 </br>
 
-To start providing Tiles from your app, include the following dependencies in your app's build.gradle file. 
+Include the following dependencies in your app's build.gradle file to begin providing Tiles.
 
 </br>
 
@@ -158,7 +158,7 @@ dependencies {
 
 </br>
 
-To provide a Tile from your application, create a class that extends TileService and implement the methods, as shown in the following code sample:
+Create a class that extends TileService and implement the methods, as demonstrated in the following code example, to provide a Tile from your application:
 
 </br>
 
