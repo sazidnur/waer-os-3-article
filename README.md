@@ -129,7 +129,7 @@ Also the new Wear OS 3 will make the API for its Tile Widget available for third
 </br>
 
 <p align="center">
-  <img src="https://developer.android.com/images/wear/tile.gif" alt="Samsung Galaxy Watch 4" width="75%" />
+  <img src="https://developer.android.com/images/wear/tile.gif" alt="Wear OS 3 Tiles" width="70%" />
 </p>
 
 </br>
@@ -230,7 +230,7 @@ The permission and intent filter register this service as a Tile provider.
 
 The icon, label, and description is shown to the user when they configure Tiles on their phone or watch.
 
-
+</br> </br>
 ### Fitbit’s Fitness Tracking
 
 There is no denying that one of the most important contributions to Fitbit’s success as a wearable brand is its great fitness tracking features. In light of that, the company will be in charge of developing features in the fitness aspect of the Wear OS. In other words, you should expect a similar user interface when accessing fitness features on the Wear OS 3.
@@ -244,14 +244,17 @@ Health features to Google Fit:
 - Sleep tracking
 - Wake up
 
-### Watch Face Studio
+
+</br> </br>
+## Watch Face Studio
+
+</br>
+
+  <img align="left" src="https://developer.android.com/images/wear/watch-face-studio_720.png" alt="Watch Free Studio" width="35%" />
 
 Watch faces are one of the most visible ways that users can express themselves on their smartwatches. Creating a watch face is a great way to showcase your brand for users on Wear OS.
-
-![](Aspose.Words.af54e3db-460c-4a35-b64b-8af5643051bb.005.png)
-
 Watch Face Studio (WFS) is a watch face design tool created by Samsung that allows you to produce and distribute your own watch faces without any coding. WFS includes intuitive graphics tools to allow you to easily design watch faces. Create watch faces for your personal use, or upload them in Google Play Console to share with your smartwatch users. Watch faces made using WFS can be downloaded and installed for any Wear OS watch devices, regardless of manufacturer, as long as the device targets Wear 2.0 (API level 28) or higher.
-
+</br> </br> </br>
 WFS works on both Windows and Mac environments. Here are some of the key ways you can use WFS:
 
 - Style editing: Customize the watch face’s color, background image, font and more.
