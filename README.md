@@ -261,11 +261,15 @@ WFS works on both Windows and Mac environments. Here are some of the key ways yo
 - Grouping & complications: Group components so that you can control or move those components with a single action. You can handle an entire complication as one group.
 - Tag expressions: Add tags with date, time, battery, step count information and more.
 
+</br> </br>
+
 ### Performance improvements
 
 The unified Wear OS/Tizen (we suspect the lion’s share of this is Wear OS) will bring a 30% increase in performance, slicker animations and UI and a boost in loading times of apps.
 
 There’s also improved battery life, but there’s no firm details on how long – but it seems it will be two days max. However, Google used the example that "includes handy optimizations like the ability to run the heart rate sensor continuously during the day, track your sleep overnight and still have battery for the next day.” We told you to temper your excitement.
+
+</br. </br>
 
 ### Wear OS 3 has promising upgrades
 
@@ -273,7 +277,7 @@ In Wear OS 3, there are some promising upgrades that might entice developers to 
 
 If there is one available, it’ll send that update to the watch the next time you connect it. If you have an LTE-capable Wear OS watch, then updates will come through to the watch as it will have a constant connection.
 
-
+</br> </br>
 
 ## Recent Market Updates:
 
@@ -283,6 +287,8 @@ Counterpoint Research reports that Wear OS captured 17% of smartwatch shipments 
 
 Samsung’s new smartwatch reportedly made up nearly 60% of smartwatch shipments in North America and Europe during Q3 2021, while Apple’s share of the market dropped significantly in Q3 due to the delayed launch of the Apple Watch Series 7.
 
+</br> </br>
+
 ## No Killer App = Killer Opportunity For Developers
 
 While analysts and shareholders should be concerned about the lack of use-cases and killer apps for smartwatches, this is actually good news for developers. You could be the one to undertake such smartwatch app development, and make a mark on this emerging and untapped market.
@@ -290,6 +296,8 @@ While analysts and shareholders should be concerned about the lack of use-cases 
 I have already talked about long-term forecasts, and the potential is clearly there. And, while we are still in the very early stages of smartwatch development, I believe this niche is worth exploring. It’s not just for risk-takers, it’s not speculative, at least not much more speculative than any traditional mobile app project today.
 
 So what is your decision to make great apps for Wear OS 3?  
+
+</br> </br>
 
 ## Conclusion
 
